@@ -4,10 +4,11 @@
 Este proyecto representa el primer acercamiento al desarrollo web utilizando **Reflex**, un framework de Python que permite construir aplicaciones web full-stack sin necesidad de escribir Javascript explícitamente. Se utilizó **Poetry** para garantizar un manejo limpio y reproducible de las dependencias.
 
 ## Pasos de Instalación y Desarrollo
-1. **Configuración de Carpeta**: Se creó la carpeta `pagina` para organizar el código.
-2. **Entorno con Poetry**: Se inicializó el proyecto con `poetry init` y se agregó `reflex`.
-3. **Inicialización de Reflex**: Se configuró la estructura base mediante `poetry run reflex init`.
-4. **Desarrollo Frontend y Lógica**: Se implementó el estado de la aplicación en Python para manejar la lógica de la ruleta y el diseño en colores negros.
+1. **Configuración de Entorno**: Se utilizó **Visual Studio Code** como entorno de desarrollo integrado (IDE).
+2. **Configuración de Carpeta**: Se creó la carpeta `pagina` para organizar el código.
+3. **Entorno con Poetry**: Se inicializó el proyecto con `poetry init` y se agregó `reflex`.
+4. **Inicialización de Reflex**: Se configuró la estructura base mediante `poetry run reflex init`.
+5. **Desarrollo Frontend y Lógica**: Se implementó el estado de la aplicación en Python para manejar la lógica de la ruleta y el diseño en colores negros.
 
 ## Problemas Encontrados y Soluciones
 - **Problema**: La inicialización de Reflex fallaba al intentar instalar Bun automáticamente debido a políticas de ejecución de PowerShell.

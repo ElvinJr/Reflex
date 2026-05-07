@@ -13,6 +13,7 @@ Antes de comenzar, asegúrate de tener instalado:
 - **Python 3.10** o superior.
 - **Poetry** (gestor de dependencias).
 - **Node.js LTS** (necesario para el frontend de Reflex).
+- **Visual Studio Code** (recomendado para desarrollo).
 
 ## Instalación
 
