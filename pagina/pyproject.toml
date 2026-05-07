@@ -1,0 +1,17 @@
+[project]
+name = "reflex-roulette"
+version = "0.1.0"
+description = "Primera página web con Reflex"
+authors = [
+    {name = "User"}
+]
+readme = "README.md"
+requires-python = "^3.11"
+dependencies = [
+    "reflex (>=0.9.2,<0.10.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
