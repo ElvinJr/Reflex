@@ -15,7 +15,19 @@ Para el desarrollo exitoso del proyecto se utilizaron las siguientes herramienta
 
 ---
 
-## 3. Arquitectura del Código
+## 3. Configuración e Instalación
+El proceso de configuración asegura que ambos entornos (Python y Node.js) se comuniquen correctamente:
+
+1. **Instalación de Node.js**: Indispensable para que Reflex compile el frontend. Se debe descargar la versión **LTS** desde [nodejs.org](https://nodejs.org/).
+2. **Gestión de Dependencias**: Usamos **Poetry** para instalar Reflex y sus dependencias de Python:
+   ```bash
+   poetry install
+   ```
+3. **Sincronización con Node**: Al ejecutar la aplicación por primera vez (`reflex run`), el framework detecta el entorno de Node.js y descarga automáticamente los módulos de frontend necesarios.
+
+---
+
+## 4. Arquitectura del Código
 La aplicación utiliza una arquitectura basada en **Estados**, donde la lógica del servidor y la interfaz del usuario están sincronizadas automáticamente.
 
 ### Ilustración de la Lógica (State)
@@ -57,7 +69,7 @@ def index():
 
 ---
 
-## 4. Guía de Solución de Problemas (Troubleshooting)
+## 5. Guía de Solución de Problemas (Troubleshooting)
 
 | Error Común | Causa Probable | Solución |
 | :--- | :--- | :--- |
@@ -68,7 +80,7 @@ def index():
 
 ---
 
-## 5. Resultados Obtenidos
+## 6. Resultados Obtenidos
 La aplicación presenta un comportamiento fluido con un diseño oscuro profesional.
 
 ### Vista Previa
@@ -77,5 +89,5 @@ La aplicación presenta un comportamiento fluido con un diseño oscuro profesion
 
 ---
 
-## 6. Conclusiones
+## 7. Conclusiones
 Reflex permite a los desarrolladores de Python entrar al mundo del desarrollo web con una curva de aprendizaje mínima, eliminando la necesidad de manejar HTML/JS complejos mientras se mantiene una estructura robusta y escalable.
