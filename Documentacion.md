@@ -40,12 +40,18 @@ class State(rx.State):
 Se utilizó un diseño basado en **VStack** (pilas verticales) para mantener la simplicidad y el enfoque en el botón interactivo.
 ```python
 def index():
-    return rx.container(
+    return rx.center(
         rx.vstack(
-            rx.heading("Primera página web con Reflex"),
-            rx.radio_group(State.colors, on_change=State.set_selected_color),
-            rx.button("Girar Ruleta", on_click=State.spin),
-        )
+            rx.heading("CASINO ROYALE", size="9", weight="bold", color="#FFD700"),
+            rx.box(
+                # UI de la apuesta y el visualizador del resultado
+                rx.center(rx.text(State.result_color, size="9")),
+                background="rgba(20, 0, 0, 0.6)",
+                border="2px solid #FFD700",
+            ),
+            rx.button("¡APUESTA Y GIRA!", on_click=State.spin),
+        ),
+        background="radial-gradient(circle, #7a0000 0%, #1a0000 100%)",
     )
 ```
 
@@ -66,7 +72,7 @@ def index():
 La aplicación presenta un comportamiento fluido con un diseño oscuro profesional.
 
 ### Vista Previa
-![Resultado de la aplicación](https://raw.githubusercontent.com/Reflex-dev/reflex/main/docs/images/reflex-logo.png) *(Nota: Aquí puedes insertar tu propia captura de pantalla al exportar a PDF)*
+![Resultado de la aplicación](imagen/Screenshot%202026-05-07%20212715.png)
 
 ---
 
