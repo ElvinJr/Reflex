@@ -72,9 +72,8 @@ def index():
 La aplicación presenta un comportamiento fluido con un diseño oscuro profesional.
 
 ### Vista Previa
-![Resultado de la aplicación](imagen/Screenshot%202026-05-07%20212715.png)
+![Resultado de la aplicación](https://github.com/ElvinJr/Reflex/blob/main/Imagen/Screenshot%202026-05-07%20212715.png)
 
-👉 **[Clic aquí para ver el Informe en PDF](imagen/imagen_2026-05-07_211919384.pdf)**
 
 ---
 
