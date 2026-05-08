@@ -48,7 +48,7 @@ def index() -> rx.Component:
             # Título Neon Gold
             rx.vstack(
                 rx.icon("clover", size=50, color="#FFD700"),
-                rx.heading("REFLEX CASINO ROYALE", size="9", weight="bold", color="#FFD700"),
+                rx.heading("CASINO ROYALE", size="9", weight="bold", color="#FFD700"),
                 rx.text("LA SUERTE ESTÁ EN TUS MANOS", size="2", letter_spacing="4px", color="white", opacity=0.8),
                 align="center",
                 margin_bottom="2.5em",
@@ -120,7 +120,7 @@ def index() -> rx.Component:
                 width="480px",
             ),
             
-            rx.text("Desarrollado con Reflex Pro | 2026", color="white", opacity=0.4, margin_top="3em"),
+            rx.text("Desarrollado con Reflex | 2026", color="white", opacity=0.4, margin_top="3em"),
             align="center",
             width="100%",
         ),
